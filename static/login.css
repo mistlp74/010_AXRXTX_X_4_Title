@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 189, 203);
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+.LoginDiv {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30vw;
+    padding: 20px 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.LoginTitle {
+    color: rgb(66, 142, 224);
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.LoginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.LoginForm input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.LoginForm button {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: rgb(66, 142, 224);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.LoginForm button:hover {
+    background-color: rgb(40, 100, 180);
+}

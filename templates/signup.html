@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/signup.css"/>
+    <title>Моя сторінка</title>
+</head>
+<body>
+    <div class="SignUpDiv">
+        <h2 class="SignUpTitle">SignUp</h2>
+        <form action="/signup" method="POST" class="SignUpForm">
+            <input type="text" placeholder="Username" name="username"  required>
+            <input type="password" placeholder="Password" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <p><a href="/">Повернутися на головну</a></p>
+    </div>
+</body>
+</html>
